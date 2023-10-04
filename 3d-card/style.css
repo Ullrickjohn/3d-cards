@@ -34,7 +34,7 @@ body{
     box-shadow: 0 0 10px #999;
     text-align: center;
     transform-style: preserve-3d;
-   
+   /* transition: 0.3s; */
 }
 
 .image-box{
@@ -49,7 +49,7 @@ body{
 
 img{
     width: 50%;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .circle{
@@ -59,7 +59,7 @@ img{
     border-radius: 50%;
     background: linear-gradient(to right bottom, #fa3535d2, #255bf0d3);
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .text-box{
     transform-style: preserve-3d;
